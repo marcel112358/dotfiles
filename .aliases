@@ -1,5 +1,6 @@
 alias edit="open -e"
 
+alias cat="lolcat"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
