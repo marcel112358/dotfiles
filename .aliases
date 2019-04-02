@@ -7,4 +7,5 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume output volume 100'"
 
 
+# Usage: joinpdf -o OUTPUT.pdf INPUT1.pdf INPUT2.pdf ...
 alias joinpdf="/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py"
