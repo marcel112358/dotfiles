@@ -1,0 +1,19 @@
+brew update
+brew upgrade
+brew cask upgrade
+brew cleanup
+
+python3 -m pip install --upgrade pip
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt --upgrade
+
+python2 -m pip install --upgrade pip
+pip freeze > requirements.txt
+pip install -r requirements.txt --upgrade
+
+rm requirements.txt
+
+composer self-update
+composer global update
+
+rsync -ah --progress --delete --exclude-from="~/Documents/.rsyncignore" ~/Documents/ /Volumes/marcel.saaro/Backup/Documents/

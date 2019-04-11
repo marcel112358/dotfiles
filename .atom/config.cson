@@ -18,3 +18,7 @@
   "markdown-table-editor": {}
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
