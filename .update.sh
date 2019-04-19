@@ -16,4 +16,4 @@ rm requirements.txt
 composer self-update
 composer global update
 
-rsync -ah --progress --delete --exclude-from="~/Documents/.rsyncignore" ~/Documents/ /Volumes/marcel.saaro/Backup/Documents/
+rsync -ah --progress --delete --exclude-from="/Users/marcel/Documents/.rsyncignore" ~/Documents/ /Volumes/home/Backup/Documents/
