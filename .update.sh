@@ -17,3 +17,5 @@ composer self-update
 composer global update
 
 rsync -ah --progress --delete --exclude-from="/Users/marcel/Documents/.rsyncignore" ~/Documents/ /Volumes/home/Backup/Documents/
+
+rm -rf /Users/marcel/.Trash/*
