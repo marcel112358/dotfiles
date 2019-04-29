@@ -6,55 +6,58 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+# General purpose tools
+brew "bash-completion"
+brew "lolcat"
+brew "inetutils"
+brew "tree"
+brew "stow"
+brew "tmux"
+brew "wget"
+
+# Python
 brew "python"
 brew "ipython"
 brew "python@2"
 
+# C/C++ Env
 brew "cmake"
 brew "gcc"
+brew "eigen"
+brew "gnuplot"
+brew "llvm"
+brew "libomp"
+brew "imagemagick"
+brew "opencv", link: false
+brew "zlib"
 
+# Webdev Env
 brew "php", restart_service: true
 brew "php@7.1", restart_service: true
 brew "composer"
+brew "yarn"
+brew "node"
+brew "dnsmasq", restart_service: true
 brew "mysql", restart_service: true
 brew "nginx", restart_service: true
 
+# PDF generation
 brew "librsvg"
-brew "bash-completion"
-brew "dnsmasq", restart_service: true
-brew "eigen"
-brew "exiftool"
-brew "ffmpeg"
-brew "gdb"
-brew "gedit"
-brew "gnupg"
-brew "gnuplot"
-brew "hub"
-brew "libomp"
-brew "imagemagick"
-brew "inetutils"
-brew "llvm"
-brew "lolcat"
-brew "node"
-brew "opencv", link: false
 brew "pandoc"
 brew "pandoc-citeproc"
-brew "stow"
-brew "tmux"
-brew "tree"
-brew "wget"
-brew "xhyve"
-brew "yarn"
-brew "youtube-dl"
-brew "zlib"
+cask "basictex"
 
+# Video
+brew "ffmpeg"
+brew "exiftool"
+brew "youtube-dl"
+
+# GUI Programs
 cask "1password"
 cask "atom"
-cask "basictex"
 cask "brave-browser"
 cask "displaylink"
 cask "firefox"
-cask "handbrake"
 cask "skype"
 cask "teamviewer"
 cask "vlc"
