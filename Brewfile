@@ -1,0 +1,61 @@
+tap "cloudfoundry/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+
+brew "python"
+brew "ipython"
+brew "python@2"
+
+brew "cmake"
+brew "gcc"
+
+brew "php", restart_service: true
+brew "php@7.1", restart_service: true
+brew "composer"
+brew "mysql", restart_service: true
+brew "nginx", restart_service: true
+
+brew "librsvg"
+brew "bash-completion"
+brew "dnsmasq", restart_service: true
+brew "eigen"
+brew "exiftool"
+brew "ffmpeg"
+brew "gdb"
+brew "gedit"
+brew "gnupg"
+brew "gnuplot"
+brew "hub"
+brew "libomp"
+brew "imagemagick"
+brew "inetutils"
+brew "llvm"
+brew "lolcat"
+brew "node"
+brew "opencv", link: false
+brew "pandoc"
+brew "pandoc-citeproc"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "xhyve"
+brew "yarn"
+brew "youtube-dl"
+brew "zlib"
+
+cask "1password"
+cask "atom"
+cask "basictex"
+cask "brave-browser"
+cask "displaylink"
+cask "firefox"
+cask "handbrake"
+cask "skype"
+cask "teamviewer"
+cask "vlc"
+cask "whatsapp"
