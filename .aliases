@@ -2,6 +2,8 @@ alias edit="open -e"
 
 alias cat="lolcat"
 
+alias atom="atom -a"
+
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume output volume 100'"
