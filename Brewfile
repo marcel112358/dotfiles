@@ -1,4 +1,3 @@
-tap "cloudfoundry/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
