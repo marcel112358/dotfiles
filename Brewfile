@@ -33,6 +33,7 @@ brew "zlib"
 
 # Webdev Env
 brew "php", restart_service: true
+brew "php@7.2", restart_service: true
 brew "php@7.1", restart_service: true
 brew "composer"
 brew "yarn"
