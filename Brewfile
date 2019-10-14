@@ -56,7 +56,6 @@ brew "youtube-dl"
 # GUI Programs
 cask "1password"
 cask "brave-browser"
-cask "displaylink"
 cask "firefox"
 cask "teamviewer"
 cask "visual-studio-code"

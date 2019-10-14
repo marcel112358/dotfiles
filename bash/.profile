@@ -4,5 +4,3 @@ fi
 [ -f ~/.aliases ] && . ~/.aliases
 
 export PATH=$PATH:$HOME/.composer/vendor/bin
-
-[ $TMUX ] || tmux at
