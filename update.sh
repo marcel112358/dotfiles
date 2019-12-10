@@ -2,6 +2,9 @@ brew update
 brew upgrade
 brew cask upgrade
 brew cleanup
+brew bundle
+# brew bundle install
+# brew bundle cleanup --force --zap
 
 python3 -m pip install --upgrade pip
 pip3 freeze > requirements.txt
