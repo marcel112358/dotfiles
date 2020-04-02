@@ -1,8 +1,8 @@
 alias edit="open -e"
 
-alias cat="lolcat"
+# alias cat="lolcat"
 
-alias atom="atom -a"
+# alias atom="atom -a"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
@@ -14,3 +14,4 @@ alias joinpdf="/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Res
 
 # Have a quick look at some document
 alias ql="qlmanage -p"
+alias freeroom="python3 ~/.freeroom/main.py"
