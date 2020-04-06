@@ -2,7 +2,7 @@ brew update
 brew upgrade
 brew cask upgrade
 brew cleanup
-brew bundle
+# brew bundle
 # brew bundle install
 # brew bundle cleanup --force --zap
 
@@ -18,5 +18,7 @@ rm requirements.txt
 
 composer self-update
 composer global update
+
+rsync -ah --progress --delete --exclude-from="/Users/marcel/Documents/.rsyncignore" ~/Documents/ /Volumes/home/Backup/Documents2020/
 
 rm -rf /Users/marcel/.Trash/*
