@@ -98,4 +98,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Autocompletion script - download it first...
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Custom PATH for php composer global scripts
+export PATH=$PATH:$HOME/.composer/vendor/bin
