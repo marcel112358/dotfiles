@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = marcel112358
 	email = marcel@saaro.ch
+[init]
+	defaultBranch = main
